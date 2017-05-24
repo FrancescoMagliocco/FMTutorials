@@ -48,11 +48,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MainDll\MainDll.csproj">
-      <Project>{2d437f69-f2c6-4c00-80a0-a9f9fba611be}</Project>
-      <Name>MainDll</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
